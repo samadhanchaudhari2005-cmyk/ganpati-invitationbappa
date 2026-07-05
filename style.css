@@ -172,3 +172,10 @@ right:20px;
 transform:translateY(-8px);
 }
 }
+.ganpati-img{
+  width:220px;
+  display:block;
+  margin:20px auto;
+  border-radius:20px;
+  filter:drop-shadow(0 0 20px gold);
+}
