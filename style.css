@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#6d0000,#b71c1c,#ff9800);
+    color:#fff;
+    overflow-x:hidden;
+}
+
+.container{
+    width:95%;
+    max-width:430px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background:rgba(255,255,255,0.10);
+    backdrop-filter:blur(12px);
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(255,215,0,.5);
+}
+
+.title{
+    color:#FFD700;
+    font-size:32px;
+    margin-bottom:20px;
+    text-shadow:0 0 20px gold;
+}
+
+.ganpati-img{
+    width:250px;
+    display:block;
+    margin:20px auto;
+    border:5px solid gold;
+    border-radius:20px;
+    box-shadow:0 0 35px gold;
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    50%{
+        transform:translateY(-10px);
+    }
+}
+
+.family{
+    color:#FFD700;
+    font-size:36px;
+    margin:15px 0;
+    text-shadow:0 0 20px gold;
+}
+
+.welcome{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.card{
+    background:rgba(255,255,255,.12);
+    padding:20px;
+    border-radius:20px;
+    margin-top:15px;
+}
+
+.card p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+.btn{
+    display:block;
+    width:90%;
+    margin:15px auto;
+    padding:15px;
+    border-radius:50px;
+    text-decoration:none;
+    background:linear-gradient(90deg,#FFD700,#FFA000);
+    color:#6d0000;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+#countdown{
+    font-size:26px;
+    color:#FFD700;
+    font-weight:bold;
+    margin:20px 0;
+}
+
+.footer{
+    margin-top:25px;
+    color:#fff;
+}
+
+.footer h2{
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.flower{
+    position:fixed;
+    top:-40px;
+    font-size:26px;
+    animation:fall linear forwards;
+    pointer-events:none;
+}
+
+@keyframes fall{
+    to{
+        transform:translateY(110vh) rotate(360deg);
+    }
+}
