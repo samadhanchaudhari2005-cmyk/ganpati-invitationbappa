@@ -7,16 +7,15 @@
 
 ## कार्यक्रम
 
-📅 दिनांक: 14/09/2026
+📅 दिनांक: १४/०९/२०२६
 
-🕚 समय: सुबह 11:00 बजे
+🕚 समय: सुबह १०:00 बजे
 
 📍 स्थान:
-Shree Samarth Building,
-Cholegaon, Thakurli, Dombivli
+श्री समर्थ सोसायटी,चोळेगाव, ठाकुर्ली 
 
 📞 संपर्क:
-9325490250
+९३२५४९०४५०
 
 🌐 Google Maps:
 https://maps.app.goo.gl/VvqkfAuLRxg9YsUm6
